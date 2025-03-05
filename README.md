@@ -17,6 +17,6 @@ This project enhanced my web development skills, strengthened my database manage
 
 ## Website Preview
 
-![Project Screenshot](https://github.com/AnasHakimi/Photostat_-_Printing_Service_System/blob/main/homepage.png?raw=true)
+![Project Screenshot](homepage.png)
 - Homepage
 
