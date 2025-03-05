@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<title>LOGIN</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+</head>
+<body>
+  <div class="main">
+  <div class="topnav">
+    <div class="logo">
+    <a href="index.php"><img src="images/logohome.png" alt="logo"></a>
+    </div>
+    <div class="wrap">
+      <form method="POST" action="search.php">
+          <div class="search">
+             <input type="text" class="searchTerm" name="query"placeholder="What are you looking for?">
+             <button type="submit" class="searchButton">
+               <i class="fa fa-search"></i>
+            </button>
+          </div>
+          </form>
+       </div>
+    <div class="nav">
+    <ul>
+        <li><a href="browse.php">Browse</a>
+        </li>
+            <li><a href="about.php">About</a>
+        </li>
+        <li><a href="seecart.php">Cart</a>
+        </li>
+            <li><a href="login.html">Log In</a>
+        </li> 
+    </ul>
+    <div class="dropdown">
+      <button class="dropbtn"><i class="fa fa-bars"></i></button>
+       <div class="dropdown-content">
+         <a href="logout.php">Log Out</a>
+           </div>
+     </div>
+</div>
+</div>
+<h1>WELCOME</h1>
+<div class="formlogin">
+<form class="form2"action="login.php" method="POST">
+  <label for="username">Username:</label><br>
+  <input type="text" class="form-control" id="username" name="username"><br>
+  <label for="password">Password:</label><br>
+  <input type="password" class="form-control" id="password" name="password" maxlength="8" size="8"><br><br>
+  <input type="submit" value="Login" name="submit">
+  <div class="signup_link">Not a member?<a href="registerform.html">Join Us!</a></div>
+</form>
+</div>
+<div class="footer">
+  <p>&copy 2023 Sneakers.co. All Rights Reserved</p>
+  </div>
+</div>
+
+</body>
+</html>
+

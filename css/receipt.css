@@ -1,0 +1,194 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+   
+    font-family: Helvetica;
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+  }
+  
+  .topnav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 65px;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  }
+
+  .footer{
+    background-color: black;
+    color: white;
+    margin-top: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+  }
+  
+  
+  .logo{
+    float: left;
+  }
+  
+  .logo img {
+    width: 250px;
+    height: 70.99px;
+  }
+  
+  
+  
+  .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    float: right;
+  }
+  
+  .nav li {
+    float: left;
+  }
+  
+  .nav li a {
+    display: block;
+    color: black;
+    font-weight: bold; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav li a:hover {
+    background-color: grey;
+  }
+  
+  
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid  black;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: black;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid black;
+    background: black;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .wrap{
+    width: 30%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .container{
+    display: flex;
+    border: solid 1px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 40%);
+    width: 30%;
+    margin-top: 100px;
+    padding: 12px;
+    height: 300px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-color: white;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .paymentstatus {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .orderID {
+    color: blue;
+  }
+  .paymentmethod, .totalprice, .address {
+    font-weight: bold;
+    color: black;
+  }
+  .totalprice {
+    font-size: larger;
+  }
+
+ 
+  .nav{
+    display: flex;
+  }
+
+  .dropbtn {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 14px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+    left: auto;
+    top: 100%;
+    bottom: auto;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: grey;}

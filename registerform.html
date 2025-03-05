@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SIGN UP</title>
+<link rel="stylesheet" type="text/css" href="css/register.css"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+</head>
+<body>
+  <div class="main">
+  <div class="topnav">
+    <div class="logo">
+    <a href="index.php"><img src="images/logohome.png" alt="logo"></a>
+    </div>
+    <div class="wrap">
+      <form method="POST" action="search.php">
+          <div class="search">
+             <input type="text" class="searchTerm" name="query"placeholder="What are you looking for?">
+             <button type="submit" class="searchButton">
+               <i class="fa fa-search"></i>
+            </button>
+          </div>
+          </form>
+       </div>
+    <div class="nav">
+    <ul>
+        <li><a href="browse.php">Browse</a>
+        </li>
+            <li><a href="about.php">About</a>
+        </li>
+        <li><a href="seecart.php">Cart</a>
+        </li>
+            <li><a href="login.html">Log In</a>
+        </li> 
+    </ul>
+    <div class="dropdown">
+      <button class="dropbtn"><i class="fa fa-bars"></i></button>
+       <div class="dropdown-content">
+         <a href="logout.php">Log Out</a>
+           </div>
+     </div>
+</div>
+</div>
+<h1>SIGN UP HERE</h1>
+<div class="formregister">
+<form class="form2" action="register.php" method="POST">
+  <label for="username">Username:</label><br>
+  <input type="text" class="form-control" id="username" name="username"><br>
+
+  <label for="password">Password:</label><br>
+  <input type="password" class="form-control" id="password" name="password" maxlength="8" size="8"><br>
+
+  <label for="fullname">Full Name:</label><br>
+  <input type="text" class="form-control" id="fullname" name="fullname"><br>
+
+  <label for="address">Address:</label><br>
+  <input type="text" class="form-control" id="address" name="address"><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" class="form-control" id="email" name="email"><br>
+
+  <label for="phone">Phone Number:</label><br>
+  <input type="number" class="form-control" id="phone" name="phone"><br><br>
+
+  <input type="submit" value="Submit" name="submit">
+</form> 
+</div>
+<div class="footer">
+  <p>&copy 2023 Sneakers.co. All Rights Reserved</p>
+  </div>
+</div>
+
+</body>
+</html>

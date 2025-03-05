@@ -1,0 +1,235 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family: Helvetica;
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+  }
+
+  
+  .footer{
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+  }
+
+.topnav{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 65px;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    width: 250px;
+    
+}
+
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    float: right;
+  }
+  
+.nav li {
+    float: left;
+  }
+  
+.nav li a {
+    display: block;
+    color: black;
+    font-weight: bold; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.nav li a:hover {
+    background-color: grey;
+  }
+
+
+
+ .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid  black;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: black;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid black;
+    background: black;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+.wrap{
+    width: 30%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.nav2 ul {
+    padding-top: 100px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ } 
+ 
+ 
+.nav2 li {
+    display: inline; 
+    padding-right: 30px;
+    font-size: 20px;
+ }
+ 
+.nav2 a {
+    color: black; 
+    font-weight: bold; 
+    text-decoration: none;
+ }
+ 
+.nav2 a:hover {
+    color: grey;
+ }
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.product {
+  display: flex;
+  justify-content: center;
+}
+.product2 {
+  display: flex;
+  justify-content: center;
+}
+ .card {
+  border: solid 0.5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  max-width: 170px;
+  margin: 5px;
+  text-align: center;
+  font-family: arial;
+  float: left;
+  padding: 7px;
+  background-color: white;
+}
+
+
+.price {
+  color: grey;
+  font-size: 15px;
+  font-weight: bold; 
+}
+
+.nameitem{
+  color: black;
+  font-size: 18px;
+  font-weight: bold; 
+}
+
+.headtop{
+  display: flex;
+  justify-content: center;
+}
+
+.headmid{
+  display: flex;
+  justify-content: center;
+}
+
+.nav{
+  display: flex;
+}
+
+.dropbtn {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 14px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0;
+  left: auto;
+  top: 100%;
+  bottom: auto;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: grey;}
+
+
+
